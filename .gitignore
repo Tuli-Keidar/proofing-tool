@@ -1,0 +1,32 @@
+# Git ignore rules to protect sensitive files and exclude build artifacts
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.env
+.idea
+.vscode
+.local/
+
+# MacOS
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Virtual environments
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/

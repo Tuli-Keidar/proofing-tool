@@ -1,0 +1,39 @@
+{
+  "segments": [
+    {
+      "segment_id": 0,
+      "section_indices": [
+        0,
+        1
+      ],
+      "section_titles": [
+        "Document Root",
+        "SAWK Evaluation Inception Meeting Agenda"
+      ],
+      "feedback": "## Identified Issues\n\n### Issue 1: Spelling\n**Original**: \"Assistance Director\u00a0(as an optional)\"\n**Issue**: \"Assistance Director\" should be \"Assistant Director.\" Additionally, the phrase \"(as an optional)\" is awkward and unclear.\n**Suggestion**: \"Assistant Director (optional)\"\n\n### Issue 2: Formatting\n**Original**: \"Date and time: 08/08/2025 3-4pm ACST\"\n**Issue**: The time format \"3-4pm\" should have a space between the number and \"pm\" for consistency and clarity.\n**Suggestion**: \"Date and time: 08/08/2025 3 - 4 pm ACST\"\n\n### Issue 3: Formatting\n**Original**: \"Invited participants\"\n**Issue**: The list of invited participants lacks a colon after the heading, which is inconsistent with the format used for \"Date and time\" and \"Location.\"\n**Suggestion**: \"Invited participants:\"\n\n### Issue 4: Punctuation\n**Original**: \"Paula Shaw, Senior Manager \u2013  Project Oversight\"\n**Issue**: There is an extra space before \"Project Oversight.\"\n**Suggestion**: \"Paula Shaw, Senior Manager \u2013 Project Oversight\"\n\n### Issue 5: Consistency\n**Original**: \"Kate Williams, Associate \u2013 Evaluation design, data collection and analysis\"\n**Issue**: The use of commas in the list \"Evaluation design, data collection and analysis\" is inconsistent with other lists in the document, which use semicolons.\n**Suggestion**: \"Kate Williams, Associate \u2013 Evaluation design; data collection; and analysis\"\n\n### Issue 6: Consistency\n**Original**: \"Jacqui Williams \u2013 Senior Policy Officer, National Partnership Agreement Team\"\n**Issue**: The formatting of the role and team name is inconsistent with other entries, which use a dash between the name and the role.\n**Suggestion**: \"Jacqui Williams, Senior Policy Officer \u2013 National Partnership Agreement Team\"\n\n### Issue 7: Consistency\n**Original**: \"Mel Baker \u2013 Manager, Inter-government Relations and National Partnership Agreement Team\"\n**Issue**: The term \"Inter-government\" should be \"Intergovernmental\" to match common usage and ensure consistency.\n**Suggestion**: \"Mel Baker, Manager \u2013 Intergovernmental Relations and National Partnership Agreement Team\"\n\n### Issue 8: Consistency\n**Original**: \"Mergho Ray - Manager Integrated Programs\"\n**Issue**: The dash used is inconsistent with other entries, which use an en dash (\u2013) rather than a hyphen (-).\n**Suggestion**: \"Mergho Ray \u2013 Manager Integrated Programs\"\n\n### Issue 9: Consistency\n**Original**: \"Stephen Bourne \u2013 Manager Family Law Division\"\n**Issue**: The formatting of the role and division name is inconsistent with other entries, which use a comma before the division name.\n**Suggestion**: \"Stephen Bourne, Manager \u2013 Family Law Division\"\n\n### Issue 10: Consistency\n**Original**: \"Sarah Decrea \u2013 Executive Manager\"\n**Issue**: The name \"Sarah Decrea\" should be checked for accuracy, as \"Decrea\" is an uncommon surname and might be a typo.\n**Suggestion**: Confirm the correct spelling of \"Sarah Decrea.\"\n\n### Issue 11: Consistency\n**Original**: \"Claire Ralfs \u2013 Chief Executive Officer\"\n**Issue**: The name \"Claire Ralfs\" should be checked for accuracy, as \"Ralfs\" is an uncommon surname and might be a typo.\n**Suggestion**: Confirm the correct spelling of \"Claire Ralfs.\"\n\n### Issue 12: Consistency\n**Original**: \"Office for Women\"\n**Issue**: The formatting of organisation names is inconsistent throughout the document. Some have a dash after the name, while others do not.\n**Suggestion**: Ensure consistent formatting for all organisation names, either with or without a dash.\n\n### Issue 13: Consistency\n**Original**: \"Women\u2019s Safety Services South Australia\"\n**Issue**: The formatting of organisation names is inconsistent throughout the document. Some have a dash after the name, while others do not.\n**Suggestion**: Ensure consistent formatting for all organisation names, either with or without a dash.\n\n### Issue 14: Consistency\n**Original**: \"Legal Services Commission\"\n**Issue**: The formatting of organisation names is inconsistent throughout the document. Some have a dash after the name, while others do not.\n**Suggestion**: Ensure consistent formatting for all organisation names, either with or without a dash.\n\n### Issue 15: Consistency\n**Original**: \"Relationships Australia\"\n**Issue**: The formatting of organisation names is inconsistent throughout the document. Some have a dash after the name, while others do not.\n**Suggestion**: Ensure consistent formatting for all organisation names, either with or without a dash.",
+      "input_tokens": 224,
+      "output_tokens": 985
+    }
+  ],
+  "statistics": {
+    "total_segments": 1,
+    "total_issues": 15,
+    "issue_types": {},
+    "tokens": {
+      "input": 224,
+      "output": 985
+    },
+    "costs": {
+      "input_tokens": 224,
+      "output_tokens": 985,
+      "cached_tokens": 0,
+      "new_tokens": 224,
+      "cached_percentage": 0,
+      "new_input_cost": 0.0017731392,
+      "cached_input_cost": 0.0,
+      "output_cost": 0.031188158425,
+      "total_cost": 0.032961297625000004
+    }
+  },
+  "docx_path": "proofreading_results/complete_proofreading_report.docx"
+}
