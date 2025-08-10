@@ -2,83 +2,71 @@
 
 ## Sections Included
 - Document Root
-- SAWK Evaluation Inception Meeting Agenda
+- Our understanding of the services required
+- The policy context
+- The evidence base
+- The program
+- The evaluation
+- Purpose and scope
+- Evaluation activities and deliverables
+- Methodology
 
 ## Feedback
 
 ## Identified Issues
 
-### Issue 1: Spelling
-**Original**: "Assistance Director (as an optional)"
-**Issue**: "Assistance Director" should be "Assistant Director." Additionally, the phrase "(as an optional)" is awkward and unclear.
-**Suggestion**: "Assistant Director (optional)"
+### Issue 1: Spelling and Terminology Consistency
+**Location**: [Paragraph 6]
+**Original**: "acknowledgment"
+**Issue**: The document uses "acknowledgment" in one instance and "acknowledgement" in another. Australian English typically uses "acknowledgement."
+**Suggestion**: "acknowledgement"
 
-### Issue 2: Formatting
-**Original**: "Date and time: 08/08/2025 3-4pm ACST"
-**Issue**: The time format "3-4pm" should have a space between the number and "pm" for consistency and clarity.
-**Suggestion**: "Date and time: 08/08/2025 3 - 4 pm ACST"
+### Issue 2: Redundant Repetition
+**Location**: [Paragraph 10] and [Paragraph 11]
+**Original**: "Service provider’s details"
+**Issue**: The same heading is repeated consecutively without any apparent reason.
+**Suggestion**: Remove one instance of "Service provider’s details" to avoid redundancy.
 
-### Issue 3: Formatting
-**Original**: "Invited participants"
-**Issue**: The list of invited participants lacks a colon after the heading, which is inconsistent with the format used for "Date and time" and "Location."
-**Suggestion**: "Invited participants:"
+### Issue 3: Inconsistent List Numbering
+**Location**: [Paragraph 21 (List item)] to [Paragraph 24 (List item)]
+**Original**: "1.1, 1.2, 1.3, 1.4"
+**Issue**: The numbering format is inconsistent with the main list, which uses whole numbers (e.g., 1, 2, 3). Subsections should be clearly distinguished from main sections.
+**Suggestion**: Ensure consistent formatting by using "1.1, 1.2, 1.3, 1.4" as subsections under the main section "1."
 
-### Issue 4: Punctuation
-**Original**: "Paula Shaw, Senior Manager –  Project Oversight"
-**Issue**: There is an extra space before "Project Oversight."
-**Suggestion**: "Paula Shaw, Senior Manager – Project Oversight"
+### Issue 4: Missing Section Number
+**Location**: [Paragraph 36 (List item)]
+**Original**: "5.2 Referees"
+**Issue**: There is no "5.1" listed, which suggests a missing section or numbering error.
+**Suggestion**: Check for a missing section or correct the numbering to ensure logical flow.
 
-### Issue 5: Consistency
-**Original**: "Kate Williams, Associate – Evaluation design, data collection and analysis"
-**Issue**: The use of commas in the list "Evaluation design, data collection and analysis" is inconsistent with other lists in the document, which use semicolons.
-**Suggestion**: "Kate Williams, Associate – Evaluation design; data collection; and analysis"
+### Issue 5: Unclear Phrase
+**Location**: [Paragraph 73]
+**Original**: "Presenting key findings to discuss interpretations and implications before reporting means we can present reports that are not only grounded in the evidence but are accepted by key stakeholders and are actionable."
+**Issue**: The sentence is lengthy and could be clearer with better punctuation.
+**Suggestion**: "By presenting key findings to discuss interpretations and implications before reporting, we ensure our reports are grounded in evidence, accepted by key stakeholders, and actionable."
 
-### Issue 6: Consistency
-**Original**: "Jacqui Williams – Senior Policy Officer, National Partnership Agreement Team"
-**Issue**: The formatting of the role and team name is inconsistent with other entries, which use a dash between the name and the role.
-**Suggestion**: "Jacqui Williams, Senior Policy Officer – National Partnership Agreement Team"
+### Issue 6: Incorrect Use of Apostrophe
+**Location**: [Paragraph 80]
+**Original**: "ARTD is a leading public policy consulting firm. Our core business is working with government agencies and non-government organisations to deliver comprehensive program evaluation services, providing robust evidence to inform policy decisions, co-design service models and delivery strategies, track outcomes, and continuously improve performance."
+**Issue**: The phrase "co-design service models and delivery strategies" lacks parallel structure.
+**Suggestion**: "co-designing service models and delivery strategies"
 
-### Issue 7: Consistency
-**Original**: "Mel Baker – Manager, Inter-government Relations and National Partnership Agreement Team"
-**Issue**: The term "Inter-government" should be "Intergovernmental" to match common usage and ensure consistency.
-**Suggestion**: "Mel Baker, Manager – Intergovernmental Relations and National Partnership Agreement Team"
+### Issue 7: Missing Comma
+**Location**: [Paragraph 82]
+**Original**: "We bring a deep understanding of the challenges faced by organisations providing services to individuals impacted by DFV gained through numerous projects for State and Commonwealth governments and non-government organisations."
+**Issue**: The sentence is missing a comma after "DFV" to separate clauses.
+**Suggestion**: "We bring a deep understanding of the challenges faced by organisations providing services to individuals impacted by DFV, gained through numerous projects for State and Commonwealth governments and non-government organisations."
 
-### Issue 8: Consistency
-**Original**: "Mergho Ray - Manager Integrated Programs"
-**Issue**: The dash used is inconsistent with other entries, which use an en dash (–) rather than a hyphen (-).
-**Suggestion**: "Mergho Ray – Manager Integrated Programs"
+### Issue 8: Inconsistent Capitalisation
+**Location**: [Our understanding of the services required → The program → Paragraph 110]
+**Original**: "Legal Services Commission of SA, which contributes free legal information, advice and education:"
+**Issue**: The colon at the end of the sentence is unnecessary and inconsistent with other list items.
+**Suggestion**: Remove the colon at the end of the sentence.
 
-### Issue 9: Consistency
-**Original**: "Stephen Bourne – Manager Family Law Division"
-**Issue**: The formatting of the role and division name is inconsistent with other entries, which use a comma before the division name.
-**Suggestion**: "Stephen Bourne, Manager – Family Law Division"
+### Issue 9: Redundant Phrase
+**Location**: [Our understanding of the services required → The evaluation → Paragraph 124]
+**Original**: "The evaluator will be required to identify or develop data collection tools and methods (both qualitative and quantitative) appropriate for SAWK clients, staff and other stakeholders; prepare and submit an application to a suitable Human Research Ethics Committee (HREC) as required; analyse program data and track against service delivery and outcome frameworks; synthesise data from all sources and present findings clearly in a final report."
+**Issue**: The phrase "both qualitative and quantitative" is redundant as it is already implied by "data collection tools and methods."
+**Suggestion**: "The evaluator will be required to identify or develop data collection tools and methods appropriate for SAWK clients, staff and other stakeholders; prepare and submit an application to a suitable Human Research Ethics Committee (HREC) as required; analyse program data and track against service delivery and outcome frameworks; synthesise data from all sources and present findings clearly in a final report."
 
-### Issue 10: Consistency
-**Original**: "Sarah Decrea – Executive Manager"
-**Issue**: The name "Sarah Decrea" should be checked for accuracy, as "Decrea" is an uncommon surname and might be a typo.
-**Suggestion**: Confirm the correct spelling of "Sarah Decrea."
-
-### Issue 11: Consistency
-**Original**: "Claire Ralfs – Chief Executive Officer"
-**Issue**: The name "Claire Ralfs" should be checked for accuracy, as "Ralfs" is an uncommon surname and might be a typo.
-**Suggestion**: Confirm the correct spelling of "Claire Ralfs."
-
-### Issue 12: Consistency
-**Original**: "Office for Women"
-**Issue**: The formatting of organisation names is inconsistent throughout the document. Some have a dash after the name, while others do not.
-**Suggestion**: Ensure consistent formatting for all organisation names, either with or without a dash.
-
-### Issue 13: Consistency
-**Original**: "Women’s Safety Services South Australia"
-**Issue**: The formatting of organisation names is inconsistent throughout the document. Some have a dash after the name, while others do not.
-**Suggestion**: Ensure consistent formatting for all organisation names, either with or without a dash.
-
-### Issue 14: Consistency
-**Original**: "Legal Services Commission"
-**Issue**: The formatting of organisation names is inconsistent throughout the document. Some have a dash after the name, while others do not.
-**Suggestion**: Ensure consistent formatting for all organisation names, either with or without a dash.
-
-### Issue 15: Consistency
-**Original**: "Relationships Australia"
-**Issue**: The formatting of organisation names is inconsistent throughout the document. Some have a dash after the name, while others do not.
-**Suggestion**: Ensure consistent formatting for all organisation names, either with or without a dash.
+No issues found in other sections.

@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 Main entry point for the Document Proofreader tool
 """
@@ -124,8 +123,14 @@ def proofread_document(document_path=None, output_dir=None):
             proofreader.create_docx_report(feedback, docx_output_path, 
                                           include_costs=True, input_tokens=input_tokens, output_tokens=output_tokens)
             
+            # Create HTML output
+            html_output_path = os.path.join(output_dir, "proofreading_results.html")
+            proofreader.create_html_report(feedback, html_output_path,
+                                          include_costs=True, input_tokens=input_tokens, output_tokens=output_tokens)
+            
             print(f"Proofreading complete. Results saved to {output_dir}/proofreading_results.md")
             print(f"DOCX report saved to {docx_output_path}")
+            print(f"HTML report saved to {html_output_path}")
             
             return {
                 "document": document_path,
@@ -154,7 +159,14 @@ def proofread_document(document_path=None, output_dir=None):
             for idx in segment_indices:
                 section = sections[idx]
                 segment_content.append(f"## {section['title']}")
-                segment_content.extend(section["content"])
+                
+                # Handle new content structure with location info
+                for content_item in section["content"]:
+                    if isinstance(content_item, dict):
+                        segment_content.append(f"[{content_item['location']}] {content_item['text']}")
+                    else:
+                        segment_content.append(content_item)  # Handle old format
+                        
                 segment_input_tokens += section["token_count"]
             
             content = "\n\n".join(segment_content)
@@ -200,6 +212,8 @@ def proofread_document(document_path=None, output_dir=None):
         print(f"Proofreading complete. Results saved to {output_dir}")
         print(f"Combined report saved to {combined_path}")
         print(f"DOCX report saved to {docx_output_path}")
+        if "html_path" in combined:
+            print(f"HTML report saved to {combined['html_path']}")
         
         return {
             "document": document_path,

@@ -46,10 +46,13 @@ Provide specific corrections for each issue you identify, and explain your reaso
 {content}
 
 ## Instructions
-Please carefully proofread the above document content. For each issue you find:
+Please carefully proofread the above document content. Note that each piece of text includes location information in square brackets (e.g., [Paragraph 5], [Table 1, Row 2], [List item]).
+
+For each issue you find:
 1. Quote the problematic text
-2. Explain the issue
-3. Provide a corrected version
+2. Include the specific location from the brackets
+3. Explain the issue
+4. Provide a corrected version
 
 Format your response as follows:
 
@@ -57,11 +60,13 @@ Format your response as follows:
 ## Identified Issues
 
 ### Issue 1: [Issue type - spelling, grammar, clarity, etc.]
+**Location**: [specific location from document]
 **Original**: "[problematic text]"
 **Issue**: [explanation of the problem]
 **Suggestion**: "[corrected text]"
 
 ### Issue 2: [Issue type]
+**Location**: [specific location from document]
 ...
 If no issues are found in a section, please state: "No issues found in this section."
 """
