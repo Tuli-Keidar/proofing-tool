@@ -1,32 +1,69 @@
-# Git ignore rules to protect sensitive files and exclude build artifacts
-venv/
+# Generated output files (should not be committed)
+proofreading_results/
+*.docx
+!to_proof.docx
+*.html
+*.json
+*.md
+!README.md
+
+# Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
+*.so
 .Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environment variables
 .env
-.idea
-.vscode
-.local/
-
-# MacOS
-.DS_Store
-
-# Temporary files
-*.tmp
-*.temp
-
-# Streamlit
-.streamlit/secrets.toml
-
-# Virtual environments
+.venv
 env/
+venv/
 ENV/
 env.bak/
 venv.bak/
 
-# Distribution / packaging
-build/
-dist/
-*.egg-info/
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Word temporary files
+~$*.docx
+~$*.doc
+*.tmp
+*.temp
+
+# Test files
+test_document.docx
+
+# Streamlit
+.streamlit/secrets.toml
